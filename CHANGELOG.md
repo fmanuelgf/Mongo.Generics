@@ -1,5 +1,10 @@
 # Mongo.GenericClient
 
+## Release 10.1.5
+
+- Update nuget packages
+- Fix recursive call to `Task DeleteAsync(ObjectId[] ids)`
+
 ## Release 10.1.4
 
 - Update nuget packages

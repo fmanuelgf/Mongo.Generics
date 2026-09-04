@@ -101,7 +101,7 @@ namespace Mongo.GenericClient.Services
         /// <inheritdoc />
         public virtual async Task DeleteAsync(ObjectId[] ids)
         {
-            await this.DeleteAsync(ids);
+            await this.DeleteAsync(ids.ToList());
         }
 
         /// <inheritdoc />
